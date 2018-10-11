@@ -1,2 +1,5 @@
 n=(input())
-print(len(n))
+if(n.isdigit()):
+	print(len(n))
+else:
+	exit()	
